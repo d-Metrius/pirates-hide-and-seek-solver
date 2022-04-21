@@ -29,4 +29,4 @@ try:
     if False == solved:
         print('Challenge not solvable...' + "\n")
 except Exception as e:
-    print(e + "\n")
+    print(str(e) + "\n")
